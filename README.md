@@ -1,2 +1,3 @@
 # eks-token-extension
-aws eks get-token in your browser
+
+Login to your Kubernetes dashboard for EKS cluster using this convenient browser extension
