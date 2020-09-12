@@ -8,7 +8,9 @@ p {
 }
 
 .required {
-  margin: 10px 20px 0px 20px
+  margin: 10px 20px 0px 20px;
+  width: 20em;
+  height: 1.5em
 }
 
 .checkbox {
@@ -16,5 +18,7 @@ p {
 }
 
 button {
-  margin: 20px
+  margin: 20px;
+  width: 20em;
+  height: 2em
 }
