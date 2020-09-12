@@ -8,11 +8,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
-<div id="content_1" class="tabcontent">
+<div id="content_1" >
   <div class="main">
-      <input class="un" type="text" align="center" placeholder="aws_access_key_id" id="accesskey" required>
-      <input class="pass" type="password" align="center" placeholder="aws_secret_access_key" id="secretkey" required>
-      <a class="submit" align="center" id="button">get token</a>
+      <input  class="required" type="text" placeholder="cluster_name" id="clustername" required>
+      <input  class="required" type="text" placeholder="aws_access_key_id" id="accesskey" required>
+      <input  class="required" type="password" placeholder="aws_secret_access_key" id="secretkey" required>
+      <div class="checkbox">
+        <input  type="checkbox" id="checkbox">
+        <label for="checkbox">auto-fill</label><br>
+      </div>
+      <button class="button" id="button">get token</button>
   </div>
 </div>
   <script src="popup.js"></script>
